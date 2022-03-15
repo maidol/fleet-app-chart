@@ -22,7 +22,7 @@ ingress:
   annotations: {}
   hosts:
   - host: chart-example.local
-    paths: []
+    paths: ["/"]
   tls: []
 resources: {}
 autoscaling:
