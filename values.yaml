@@ -18,11 +18,11 @@ service:
   ports:
     nodePort: 32080
 ingress:
-  enabled: true
+  enabled: false
   annotations: {}
   hosts:
   - host: chart-example.local
-    paths: ["/"]
+    paths: []
   tls: []
 resources: {}
 autoscaling:
