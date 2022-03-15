@@ -1,4 +1,4 @@
-replicaCount: 2
+replicaCount: 1
 image:
   repository: nginx
   pullPolicy: IfNotPresent
@@ -18,7 +18,7 @@ service:
   ports:
     nodePort: 32080
 ingress:
-  enabled: false
+  enabled: true
   annotations: {}
   hosts:
   - host: chart-example.local
